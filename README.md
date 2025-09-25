@@ -1,6 +1,6 @@
 # Ollama Function Calling for Dummies
 
-This is a simple, beginner-friendly example showing how to use **function calling** with Ollama.
+This is a simple, beginner-friendly example showing how to use function calling with Ollama.
 
 ## What this example does
 
@@ -33,12 +33,12 @@ python3 -m venv venv
 ./venv/bin/pip install ollama yfinance
 ```
 
-### Run the example
+#### Run the example
 ```sh
 ./venv/bin/python main.py
 ```
 
-#### Try It Out
+### Try It Out
 ```sh
 >> What's Apple's stock price?
 Apple's current stock price is $252.13 per share.
