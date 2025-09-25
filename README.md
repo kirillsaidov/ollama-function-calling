@@ -48,9 +48,6 @@ Alphabet Inc. (GOOGL) is currently trading at 247.14 per share.
 ```
 
 ## How It Works
-
-The magic happens in **three steps**:
-
 ### Step 1: First LLM Call
 - User asks a question
 - LLM analyzes if it needs external data
@@ -64,7 +61,7 @@ The magic happens in **three steps**:
 ### Step 3: Second LLM Call
 - Tool result is added to the conversation history
 - LLM gets the complete context (original question + tool result)
-- LLM generates a **natural, coherent response** using the data
+- LLM generates a natural, coherent response using the data
 
 This ensures users get helpful explanations, not just raw data dumps!
 
