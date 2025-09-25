@@ -22,7 +22,7 @@ def get_stock_price(symbol: str) -> float:
 
 
 """
-This is the official you tell ollama about functions it can call.
+This is the official way to tell ollama about functions it can call.
 """
 TOOLS_SCHEMA = [
     {
@@ -46,7 +46,7 @@ TOOLS_SCHEMA = [
 
 """
 This thing is just for convenience,
-so we can check if function is avaialable in our toolset. 
+so we can check if the requested function is avaialable in our toolset. 
 """
 TOOLS_LIST = {
     'get_stock_price': get_stock_price,
@@ -80,6 +80,7 @@ if __name__ == '__main__':
 
                     # run this function if it is available
                     tool_result = func(**tool.function.arguments) if func else 'Tool not found'
+
                     # append the results to history as role:tool
                     history.append({
                         'role': 'tool',
