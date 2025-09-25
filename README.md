@@ -116,5 +116,5 @@ TOOL_SCHEMA = [
 
 Now you can test it by running the script.
 
-## 📄 License
+## License
 Unlicense.
